@@ -36,7 +36,7 @@ docker run --rm \
   -e VSCODE_KEYRING_PASS="mysecretpassword" \
   -e VSCODE_SERVE_MODE=serve-local \
   -v /<host_folder_data>:/root/.vscode-server \
-  amapow/vscode-server:latest
+  ahmadnassri/vscode-server:latest
 ```
 
   [the official documentation]: https://code.visualstudio.com/docs/remote/vscode-server
